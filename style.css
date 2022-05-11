@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+.cardbody {
+    background-color: black;
+}
+
+.cardimg {
+    width: 25rem;
+    height: auto;
+}
+
+.lefticons {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.lefticons div:nth-of-type(2n) {
+    color: rgb(28, 28, 100);
+}
+
+.lefticons div:nth-of-type(2n+1) {
+    color: rgb(28, 28, 100);
+}
